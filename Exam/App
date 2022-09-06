@@ -1,0 +1,21 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        // Character Class
+      Student Me = new Student ();
+
+      Me.surname = "Marfal,";
+      Me.firstname = "Gabriel";
+      Me.middleInitial = 'V';
+      Me.dateOfBirth = "03/19/2003";
+      Me.studentNumber = 2022104398;
+      Me.studentEmailAddress = "marfalgv@students.national-u.edu.ph";
+      Me.IAmAwesome = true;
+      Me.sayMysurname();
+      Me.sayMydateOfBirth();
+      Me.sayMystudentNumber();
+      Me.sayMystudentEmailAddress();
+      Me.sayMystudentIAmAwesome();
+
+    }
+}
