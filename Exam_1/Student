@@ -1,0 +1,28 @@
+public class Student {
+    //Character Attributes
+    String surname;
+    String firstname;
+    char middleInitial;
+    String dateOfBirth;
+    int studentNumber;
+    String studentEmailAddress;
+    Boolean IAmAwesome;
+
+
+    //Character method
+    public void sayMysurname(){
+        System.out.println("My Surname is " + surname + " " + firstname + " " + middleInitial);
+    }
+    public void sayMydateOfBirth(){
+        System.out.println("My birthday is  " + dateOfBirth);
+    }
+    public void sayMystudentNumber(){
+        System.out.println("My Student Number is " + studentNumber);
+    }
+    public void sayMystudentEmailAddress(){
+        System.out.println("My Email Address is" + studentEmailAddress);
+    }
+    public void sayMystudentIAmAwesome(){
+        System.out.println("I Am Awesome! " + IAmAwesome);
+    }
+}
