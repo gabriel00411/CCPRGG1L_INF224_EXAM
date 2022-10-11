@@ -253,7 +253,7 @@ public class Exam {
         System.out.print("Enter your student email address: ");
         String studentEmailAddress = scan.next();
 
-        if (studentEmailAddress.contains("marfal")){
+        if (studentEmailAddress.contains("marfalgv@students.national-u.edu.ph")){
             System.out.println("Valid!");
         } else {
             System.out.println("Invalid!");
